@@ -45,6 +45,11 @@ margin: 10px;
 text-transform: uppercase;
 }
 
+main{
+    padding: 100px 25vw 50px 25vw;
+    min-height: 55vh;
+}
+
 .landing { 
     background: white;
 padding: 50px 15vw 100px 15vw;
@@ -63,7 +68,13 @@ h1, h2{
 font-weight: 400;
 text-transform: uppercase;
 text-align: center;
-color: black;
+}
+
+.landing h1{
+    color: black;
+line-height: 1.2em;
+font-size: 1.7em;
+font-family: Malamondo-Alt;
 }
 
 .landing a{ 
