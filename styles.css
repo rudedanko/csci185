@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .5px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20vh;
+    margin: 0 25px;
+}
+
+
+section li{
+    margin: 10px;
+}
+
+section a:hover{
+color: rgb(243, 110, 110);
+}
+
+a{
+  text-decoration: none; 
+  color: rgb(30, 12, 84);
+}
