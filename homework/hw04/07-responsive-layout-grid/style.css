@@ -30,13 +30,17 @@ body {
   height: 50vh;
 }
 
-/* Task 3 */
+.container{
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+}
+/* /* Task 3 */
 
 .task-3.container {
 }
 
 .task-3 .header {
-}
+} 
 
 .task-3 .navigation {
 }
@@ -51,7 +55,7 @@ body {
 }
 
 .task-3 .footer {
-}
+} */
 
 
 

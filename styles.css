@@ -1,31 +1,68 @@
 header{
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.314);
     color: white;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font: inherits;
     letter-spacing: .5px;
 }
 
-section {
+.opening_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/* SOURCE https://www.w3schools.com/cssref/pr_background-image.php */
+body {
+    background-image: url(https://rare-gallery.com/uploads/posts/4584838-artwork-black-green-abstract-digital-art-space-art-space.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  
+  .grid_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.card{
+    background-color: rgba(5, 29, 7, 0.47);
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 20vh;
-    margin: 0 25px;
+    align-items: center;
 }
 
+.card:hover{
+    background-color: rgba(134, 85, 47, 0.436);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card_container {
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
 
 section li{
     margin: 10px;
 }
 
-section a:hover{
-color: rgb(243, 110, 110);
+#Quizzes, #tutorials, #homework, #class-exercises{
+    margin: 20px;
 }
 
-a{
-  text-decoration: none; 
-  color: rgb(30, 12, 84);
+footer{
+    display: grid;
+    background-color: gray;
 }
