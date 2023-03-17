@@ -20,3 +20,21 @@ div {
     column-gap: 30px;
     justify-content: center;
 }
+
+.one:hover {
+    background-color: aqua;
+    border-radius: 50%;
+    transition: all .2s ease-out;
+}
+
+.two:hover {
+    background-color: aqua;
+    border-radius: 50%;
+    transition: all .2s ease-out;
+}
+
+.three:hover {
+    background-color: aqua;
+    border-radius: 50%;
+    transition: all .2s ease-out;
+}

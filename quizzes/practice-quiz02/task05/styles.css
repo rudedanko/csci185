@@ -7,3 +7,18 @@ header, nav, aside, main, footer {
 }
 
 /* Your code here */
+
+body{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+header{
+
+}
+
+/* Tablet */
+@media screen and (max-width: 800px) {
+    /* Your CSS here */
+
+}
