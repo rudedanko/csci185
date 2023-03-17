@@ -66,3 +66,7 @@ footer{
     display: grid;
     background-color: gray;
 }
+
+a{
+    color: rgb(249, 244, 244);
+}
