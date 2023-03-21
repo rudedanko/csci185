@@ -9,9 +9,9 @@ main{
     padding: 25px;
 }
 
-/* .card{
+.card{
     display: grid;
     grid-template-columns: 75% 25%;
     padding: 25px;
     border: 2px solid rgb(162, 158, 158);
-} */
+}
