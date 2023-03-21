@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,3 +13,90 @@ body {
 }
 
 /* Your CSS Code Here! */
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+header{
+    background-color: teal;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header div{
+    display: grid;
+    justify-items: center;
+    color: white;
+}
+
+#profile-pic{
+    border-radius: 50%;
+}
+
+h2{
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 20px;
+}
+
+#about{
+    margin: 5%;
+}
+
+#projects{
+    background-color: lightgray;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.project-holder{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 8%;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+
+.contact-details{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 15px;
+}
+
+form div{
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+
+
+@media (max-width: 800px) {
+    nav ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 20px;
+        margin: 0px;
+    }
+
+    .project-holder{
+        display: grid;
+    }
+
+}
