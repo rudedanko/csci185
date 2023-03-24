@@ -67,6 +67,6 @@ footer{
     background-color: gray;
 }
 
-a{
+a, p{
     color: rgb(249, 244, 244);
 }
