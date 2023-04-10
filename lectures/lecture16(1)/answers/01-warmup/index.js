@@ -12,8 +12,3 @@ function toggleSpring() {
     document.querySelector('h1').innerText = "Spring in Asheville";
     document.querySelector('body').className = "spring";
 }
-
-function toggleUNCA() {
-    document.querySelector('h1').innerText = "UNCA"
-    document.querySelector('body').className = "unca";
-}

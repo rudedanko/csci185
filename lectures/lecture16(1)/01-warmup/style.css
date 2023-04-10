@@ -23,7 +23,7 @@ header #seasons {
     display: flex;
     justify-self: flex-end;
     justify-content: space-between;
-    column-gap: 20px;
+    width: 210px;
 }
 
 header h1 {
@@ -92,14 +92,15 @@ button:active, button:focus {
     background-position: bottom center;
 }
 
-.unca h1 { 
-    color:white
+/* Hippie dude */
+
+.hippie h1 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
 }
 
-.unca header {
-    background-color: royalblue;
-}
-
-.unca header:hover {
-    background-color: navy;
+.hippie header {
+    background-image: url('images/hippie.jpeg');
+    background-size: cover;
+    background-position: bottom center;
 }
